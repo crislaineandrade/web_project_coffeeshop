@@ -8,3 +8,144 @@
 }
 
 
+.header{
+  background-color: #fff;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav__logo {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 105px;
+  height: 39px;
+}
+
+.nav__links {
+  display: flex;
+  list-style: none;
+  margin: 30px 80px 0 0;
+  column-gap: 20px;
+  padding: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.content {
+  display: flex;
+
+
+}
+
+.content-text {
+  flex-direction: column;
+}
+
+.content-text__span-accent {
+  color: #2F80ED;
+  display: block;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+}
+
+.content-text__title {
+  max-width: 709px;
+  margin: 183px 0 28px 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  color: #000;
+
+}
+
+
+.content-text__description {
+  max-width: 683px;
+  margin: 0 0 0 80px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+
+}
+
+.content-image {
+  /* margin-top: 124px; */
+  position: relative;
+
+
+}
+
+.content-image__image {
+  width: 646px;
+  height: 568px;
+  padding: 5px;
+  position: absolute;
+  /* top: 124px; */
+
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.footer__infos {
+  list-style: none;
+  margin: 0 0 40px 80px;
+  padding: 0;
+
+
+}
+
+.footer__info {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+
+
+}
+
+.footer__paragraph {
+  margin: 0 80px 40px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+
+
+}
+
