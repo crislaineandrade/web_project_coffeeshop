@@ -14,6 +14,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
+
 }
 
 .nav {
@@ -48,30 +50,11 @@
   line-height: 20px;
 }
 
-.content {
-  display: flex;
 
-
-}
-
-.content-text {
-  flex-direction: column;
-}
-
-.content-text__span-accent {
-  color: #2F80ED;
-  display: block;
-  font-family: "Noto Serif";
-  font-style: italic;
-  font-weight: normal;
-  font-size: 58px;
-  line-height: 72px;
-}
-
-.content-text__title {
+.header__title {
   max-width: 709px;
   margin: 183px 0 28px 80px;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 58px;
@@ -81,8 +64,17 @@
 
 }
 
+.header__span-accent {
+  color: #2F80ED;
+  display: block;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+}
 
-.content-text__description {
+.header__description {
   max-width: 683px;
   margin: 0 0 0 80px;
   font-family: "Noto Serif";
@@ -91,36 +83,32 @@
   font-size: 20px;
   line-height: 30px;
 
-
 }
 
-.content-image {
-  /* margin-top: 124px; */
-  position: relative;
-
-
-}
-
-.content-image__image {
+.header__image {
   width: 646px;
   height: 568px;
-  padding: 5px;
   position: absolute;
-  /* top: 124px; */
-
-
+  top: 124px;
+  right: 5px;
 }
+
 
 .footer {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* margin-top: auto;
+  /* min-height: 720px;
+  max-height: 800px; */
+  padding: 0;
 
 }
 
 .footer__infos {
   list-style: none;
-  margin: 0 0 40px 80px;
+  margin-top: auto;
+  height: 100;
+  margin-top: auto;
+
   padding: 0;
 
 
@@ -138,14 +126,100 @@
 }
 
 .footer__paragraph {
-  margin: 0 80px 40px 0;
+  /* margin: 0 80px 40px 0; */
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  margin-top: auto;
+
+  left: 80px;
+  bottom: 40px;
+
 
 
 }
 
+
+/* -------RECIPES-------- */
+
+
+.content {
+
+
+}
+
+.recipes {
+  background-image: url('../images/background_recipes.svg');
+  background-color: #0a2750;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.recipes__title {
+  max-width: 580px;
+  /* margin: 100px 0 24px 80px; */
+  color: #fff;
+  font-family: "Inter"; /*colocar fallbascks descrito no inicio */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+
+}
+
+.recipes__subtitle {
+  max-width: 438px;
+  margin: 0 0 80px 80px;
+  color: #fff;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+
+}
+
+.recipes__videos {
+
+  justify-content: center;
+
+  margin-bottom: 215px;
+  column-gap: 40px;
+  display: flex;
+
+
+}
+
+.recipes__video-item {
+
+
+
+}
+
+.recipes__iframe {
+  border: 0;
+  width: 480px;
+  height: 273px;
+
+
+
+
+}
+
+.recipes__video-caption {
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  justify-content: space-between;
+
+}
