@@ -62,7 +62,6 @@
           <div class="recipes__captions">
             <p class="recipes__video-caption">Receita Aeropress</p>
             <p class="recipes__video-caption">~5 min</p>
-
           </div>
 
         </div>
@@ -81,8 +80,40 @@
 
     </section>
 
+    <section class="reservation">
 
-    <section class="reservation" id="reservation"></section>
+      <h2 class="reservation__title">Reservar uma mesa</h2>
+
+      <form class="form reservation__form"> 
+
+        <fieldset class="form__fieldset">
+
+          <label class="form__label">Nome: *</label>
+          <input type="text" class="form__input" placeholder="Nome e sobrenome" required>
+
+          <label class="form__label">Número de convidados: *</label>
+          <input type="number" class="form__input" placeholder="1-8" required>
+
+          <label class="form__label">Data e hora: *</label>
+          <input type="datetime-local" class="form__input" required>
+
+          <label class="form__label">Seu e-mail: *</label>
+          <input type="email" class="form__input" placeholder="email@email.com" required>
+
+          <!-- botao -->
+          <label class="form__label"></label>
+          <button type="submit" class="form__button">Reservar uma mesa</button>
+
+          <label class="form__label form__label_mudanca">
+            <input type="checkbox" class="form__checkbox">
+            Eu concordo com os termos de uso
+          </label>
+
+        </fieldset>
+      </form>
+
+    </section>
+
   </main>
 
   <footer class="footer" id="footer"></footer>
